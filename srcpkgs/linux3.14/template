@@ -1,6 +1,7 @@
 # Template file for 'linux3.14'
 #
 pkgname=linux3.14
+reverts=3.14.61_1
 version=3.14.58
 revision=2
 wrksrc="linux-${version}"

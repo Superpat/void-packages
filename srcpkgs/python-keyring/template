@@ -1,10 +1,10 @@
 # Template file for 'python-keyring'
 pkgname=python-keyring
-version=8.2
-revision=2
+version=8.4.1
+revision=1
 noarch=yes
 wrksrc="keyring-${version}"
-build_style="python-module"
+build_style=python-module
 python_versions="2.7 3.4"
 hostmakedepends="python-setuptools python3.4-setuptools"
 depends="python"
@@ -14,7 +14,7 @@ maintainer="Oliver Kiddle <okiddle@yahoo.co.uk>"
 license="MIT"
 homepage="https://github.com/jaraco/keyring"
 distfiles="${PYPI_SITE}/k/keyring/keyring-${version}.tar.gz"
-checksum=89d5392dfb82dce6610845a8dc52541ec7e46204fafe242d5c6994216cdc3580
+checksum=59054102b7454704cf22040e2a41a320b2a46d5de511ba3a46268cf20ad40689
 
 pre_build() {
 	sed -e '/setuptools_scm/d' \

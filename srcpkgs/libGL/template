@@ -1,6 +1,6 @@
 # Template build file for 'libGL'.
 pkgname=libGL
-version=11.1.1
+version=11.1.2
 revision=1
 wrksrc="mesa-${version}"
 build_style=gnu-configure
@@ -13,7 +13,7 @@ maintainer="Juan RP <xtraeme@voidlinux.eu>"
 homepage="http://www.mesa3d.org/"
 license="MIT, LGPL-2.1"
 distfiles="ftp://ftp.freedesktop.org/pub/mesa/${version}/mesa-${version}.tar.xz"
-checksum=64db074fc514136b5fb3890111f0d50604db52f0b1e94ba3fcb0fe8668a7fd20
+checksum=8f72aead896b340ba0f7a4a474bfaf71681f5d675592aec1cb7ba698e319148b
 
 hostmakedepends="
  automake libtool flex pkg-config llvm python-Mako libxml2-python wayland-devel"
@@ -30,7 +30,7 @@ subpackages="libglapi libgbm libEGL libGLES libOSMesa libwayland-egl"
 case "$XBPS_TARGET_MACHINE" in
 i686*|x86_64*)
 	# Enable all x86 drivers.
-	configure_args+=" --with-gallium-drivers=r300,r600,radeonsi,svga,swrast,nouveau"
+	configure_args+=" --with-gallium-drivers=r300,r600,radeonsi,svga,swrast,nouveau,virgl"
 	configure_args+=" --with-dri-drivers=i915,i965,r200,radeon,nouveau,swrast"
 	configure_args+=" --enable-xa --enable-dri3 --enable-nine"
 	configure_args+=" --enable-opencl --enable-opencl-icd --enable-r600-llvm-compiler"

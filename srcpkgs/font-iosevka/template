@@ -1,6 +1,6 @@
 # Template file for 'font-iosevka'
 pkgname=font-iosevka
-version=1.7.2
+version=1.7.5
 revision=1
 wrksrc=iosevka
 noarch="yes"
@@ -12,7 +12,7 @@ maintainer="Diogo Leal <diogo@diogoleal.com>"
 license="SIL Open Font License"
 homepage="https://be5invis.github.io/Iosevka/"
 distfiles="https://github.com/be5invis/Iosevka/releases/download/v${version}/iosevka-${version}.zip"
-checksum=abfe8e2e181ef5e579630f128e9f5fa3fd2e5a6664fab62883eb04bfb72f0a6b
+checksum=081d74b60d47dc0cfd27abb8db0207e743ca85a3a3e2a2de00f0990db1761971
 
 do_install() {
 	vmkdir usr/share/fonts/TTF

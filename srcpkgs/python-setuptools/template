@@ -1,6 +1,6 @@
 # Template file for 'python-setuptools'
 pkgname=python-setuptools
-version=19.6.2
+version=20.1.1
 revision=1
 noarch=yes
 wrksrc="setuptools-${version}"
@@ -16,7 +16,7 @@ maintainer="Alessio Sergi <al3hex@gmail.com>"
 homepage="https://bitbucket.org/pypa/setuptools"
 license="MIT"
 distfiles="${PYPI_SITE}/s/setuptools/setuptools-${version}.tar.gz"
-checksum=69261eefdb21057cfbe92ba8032b923d6363d6682967d42cf46388090d0f1a15
+checksum=2663ce0b0e742ee27c3a06b2da14563e4f6f713eaf5509b932a31793f9dea9a3
 
 pre_build() {
 	sed -i '/^#!/d' setuptools/command/easy_install.py

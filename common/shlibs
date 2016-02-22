@@ -127,15 +127,15 @@ libGL.so.1 libGL-7.11_1
 libGL.so.1 catalyst-libs-14.2_1
 libGL.so.1 nvidia-libs-346.47_1
 libGL.so.1 nvidia304-libs-304.00_1
-libGL.so.1 nvidia-stable-libs-340.46_1
+libGL.so.1 nvidia340-libs-340.46_1
 libnvidia-ml.so.1 nvidia-libs-346.47_1 ignore
 libnvidia-ml.so.1 nvidia304-libs-304.00_1 ignore
-libnvidia-ml.so.1 nvidia-stable-libs-340.46_1 ignore
+libnvidia-ml.so.1 nvidia340-libs-340.46_1 ignore
 libnvidia-tls.so.346.47 nvidia-libs-346.47_1 ignore
 libnvidia-glcore.so.346.47 nvidia-libs-346.47_1 ignore
 libnvidia-gtk2.so.346.47 nvidia-gtklibs-346.47_1 ignore
 libnvidia-gtk3.so.346.47 nvidia-gtklibs-346.47_1 ignore
-libnvidia-glcore.so.346.47 nvidia-stable-libs-340.46_1 ignore
+libnvidia-glcore.so.346.47 nvidia340-libs-340.46_1 ignore
 libnvidia-glsi.so.346.72 nvidia-libs-346.72_1 ignore
 libglapi.so.0 libglapi-7.11_1
 libgbm.so.1 libgbm-9.0_1
@@ -353,7 +353,7 @@ libMagickCore-6.Q16.so.2 libmagick-6.8.8.4_1
 libMagickWand-6.Q16.so.2 libmagick-6.8.8.4_1
 libMagick++-6.Q16.so.6 libmagick-6.9.0.5_1
 libltdl.so.7 libltdl-2.2.6_1
-libpoppler.so.57 poppler-0.38.0_1
+libpoppler.so.58 poppler-0.40.0_1
 libpoppler-glib.so.8 poppler-glib-0.18.2_1
 libpoppler-cpp.so.0 poppler-cpp-0.18.2_1
 libpoppler-qt4.so.4 poppler-qt4-0.22.3_1
@@ -798,7 +798,7 @@ libgiblib.so.1 giblib-1.2.4_1
 libgc.so.1 gc-7.1_1
 libcord.so.1 gc-7.4_1
 libgslcblas.so.0 gsl-1.15_1
-libgsl.so.0 gsl-1.15_1
+libgsl.so.19 gsl-2.1_1
 liblua5.1.so.5.1 lua51-5.1.5_1
 liblua5.2.so.5.2 lua52-5.2.4_2
 liblua5.3.so.5.3 lua-5.3.1_2
@@ -1153,8 +1153,8 @@ libHX.so.28 libHX-3.14_1
 libxkbcommon.so.0 libxkbcommon-0.2.0_1
 libxkbcommon-x11.so.0 libxkbcommon-x11-0.4.2_1
 libgee-0.8.so.2 libgee08-0.8.2_1
-libnettle.so.4 nettle-2.5_1
-libhogweed.so.2 nettle-2.5_1
+libnettle.so.6 nettle-3.2_1
+libhogweed.so.4 nettle-3.2_1
 libmikmod.so.3 libmikmod-3.2.0_1
 libgtkspell.so.0 gtkspell-2.0.16_1
 libpurple.so.0 libpurple-2.10.6_1
@@ -1224,7 +1224,7 @@ libunwind-x86_64.so.8 libunwind-1.1_1
 libunwind-x86.so.8 libunwind-1.1_1
 libunwind-arm.so.8 libunwind-1.1_4
 libunwind-mips.so.8 libunwind-1.1_4
-libmicrohttpd.so.10 libmicrohttpd-0.9.26_1
+libmicrohttpd.so.12 libmicrohttpd-0.9.48_1
 libgit2.so.23 libgit2-0.23.1_1
 libgit2-glib-1.0.so.0 libgit2-glib-0.23.4_1
 libagg.so.2 agg-2.5_1
@@ -1764,6 +1764,7 @@ libsodium.so.18 libsodium-1.0.7_1
 libstrophe.so.0 libstrophe-0.8.6_1
 libganv-1.so.1 ganv-1.4.2_1
 libblas.so.3 blas-3.5.0_1
+libcblas.so.3 cblas-3.6.0_1
 liblapack.so.3 lapack-3.5.0_1
 libcinnamon-menu-3.so.0 cinnamon-menus-2.2.0_1
 libpolkit-gtk-mate-1.so.0 mate-polkit-1.8.0_2
@@ -1999,7 +2000,7 @@ libpagemaker-0.0.so.0 libpagemaker-0.0.2_1
 libkcddb.so.4 libkcddb-14.12.3_1
 libk3bdevice.so.6 k3b-2.0.3a_1
 libk3blib.so.6 k3b-2.0.3a_1
-libsndio.so.6.0 sndio-0.0.8.20150308_1
+libsndio.so.6.1 sndio-1.1.0_1
 libopenconnect.so.5 openconnect-7.05_1
 libusbredirparser.so.1 usbredir-0.7_1
 libusbredirhost.so.1 usbredir-0.7_1
@@ -2034,7 +2035,7 @@ libcvm-v1client.so.1 cvm-0.97_1
 libcvm-v2client.so.1 cvm-0.97_1
 libudns.so.0 udns-0.4_1
 libcriu.so.1 criu-1.5.1_2
-libwebsockets.so.5 libwebsockets-1.4_1
+libwebsockets.so.7 libwebsockets-1.7.0_1
 libbitcoinconsensus.so.0 litecoin-0.10.1.2_1
 libnfc.so.0 libnfc-1.7.1_1
 libfuzzy.so.2 libfuzzy-2.12_1
@@ -2085,7 +2086,7 @@ libkasten2core.so.2 okteta-4.14.2_1
 libkasten2controllers.so.2 okteta-4.14.2_1
 libkasten2okteta1gui.so.1 okteta-4.14.2_1
 libkasten2okteta1core.so.1 okteta-4.14.2_1
-libhttp_parser.so.2.6.0 http-parser-2.6.0_1
+libhttp_parser.so.2.6.1 http-parser-2.6.1_1
 libmaa.so.3 libmaa-1.3.2_1
 libcodeblocks.so.0 codeblocks-13.12_1
 liblept.so.5 leptonica-1.73_1
@@ -2206,6 +2207,7 @@ libkoreport.so.14 calligra-libs-2.9.7_1
 libpigmentcms.so.14 calligra-libs-2.9.7_1
 libkoproperty.so.14 calligra-libs-2.9.7_1
 libbasicflakes.so.14 calligra-libs-2.9.7_1
+libarpack.so.2 arpack-ng-3.3.0_2 
 libkoplugin.so.14 calligra-libs-2.9.7_1
 libkoversion.so.14 calligra-libs-2.9.7_1
 libkopageapp.so.14 calligra-libs-2.9.7_1
@@ -2321,7 +2323,7 @@ libfirm.so.1.22 libfirm-1.22.0_1
 libaudiofile.so.1 audiofile-0.3.6_1
 libbs2b.so.0 libbs2b-3.1.0_1
 libmunge.so.2 munge-libs-0.5.11_1
-libmgba.so.0.3 libmgba-0.3.2_1
+libmgba.so.0.4 libmgba-0.4.0_1
 libglabels-3.0.so.8 libglabels30-3.2.1_1
 libglbarcode-3.0.so.0 libglabels30-3.2.1_1
 libjim.so.0.76 jimtcl-0.76_2
@@ -2336,3 +2338,18 @@ libavresample.so.2 libavresample-2.8.5_3
 libpqxx-4.0.so libpqxx-4.0.1_1
 libndpi.so.1 ndpi-1.6_1
 liblog4cxx.so.10 log4cxx-0.10.0_1
+libsearpc.so.1 libsearpc-3.0.7_1
+libccnet.so.0 ccnet-5.0.4_1
+libseafile.so.0 seafile-libclient-5.0.4_1
+libpodofo.so.0.9.3 libpodofo-0.9.3_1
+libIrcUtil.so.3 libcommuni-3.4.0_1
+libIrcCore.so.3 libcommuni-3.4.0_1
+libIrcModel.so.3 libcommuni-3.4.0_1
+libtolua.so tolua-5.2.0_1
+libhwloc.so.5 libhwloc-1.11.2_1
+libnetfilter_cttimeout.so.1 libnetfilter_cttimeout-1.0.0_1
+libnetfilter_cthelper.so.0 libnetfilter_cthelper-1.0.0_1
+libnetfilter_queue.so.1 libnetfilter_queue-1.0.2_1
+libfilezilla.so.0 libfilezilla-0.3.1_1
+libtommath.so.1 libtommath-1.0_1
+libunicorn.so.0 unicorn-0.9_1
